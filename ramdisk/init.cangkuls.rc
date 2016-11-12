@@ -1,0 +1,9 @@
+#init.d service injector
+#created by rivv
+#for all
+# The Cangkuls Team
+
+service sysinit /system/bin/sysinit
+    class main
+    user root
+    oneshot
